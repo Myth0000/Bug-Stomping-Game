@@ -3,7 +3,7 @@ class InstructionsScreen extends Screen {
     super();
     textAlign(CENTER);
     this.playButton = createButton("PLAY");
-    this.playButton.position(width / 2 - 20, height / 1.7);
+    this.playButton.position(document.documentElement.clientWidth/2 - 20, height/1.25);
     this.playButton.mousePressed(playButtonClicked);
     this.visible = true;
   }
